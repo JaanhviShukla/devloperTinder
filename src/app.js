@@ -10,4 +10,3 @@ app.use("/info",(req,res)=>{
 app.use("/acknowledgement",(req,res)=>{
   res.send("I would like to acknowledge my parents and teachers f their support")
 });
-//hugggjj
