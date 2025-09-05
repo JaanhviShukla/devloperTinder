@@ -7,7 +7,7 @@ app.listen(3000,()=>{
 app.get("/user",(req,res)=>{
     res.send("User information");
 });
-app.post("/user",(req,res)=>{
+app.post("/user/hello",(req,res)=>{
     res.send("User created");
 });
 
